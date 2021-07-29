@@ -11,6 +11,9 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+# 递归解法
+# 时间复杂度: O(n) - 遍历整棵树, 线性复杂度
+# 空间复杂度: O(n) - 递归层数最大为树的层数
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         return self.check(root, root) # 
@@ -20,6 +23,7 @@ class Solution:
             return True
         if not p or not q:
             return False
+
         # 写法1 判断值相等和返回函数分开写
         if p.val != q.val:
             return False
