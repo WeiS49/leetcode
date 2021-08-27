@@ -29,8 +29,8 @@ class Solution:
             targetSum -= root.val # 对节点值进行处理
 
             if not root.left and not root.right and targetSum == 0:
-                res.append(path) # 添加值为[]
-                res.append(len(path)) # 添加值为列表原长度
+                # res.append(path) # 添加值为[]
+                # res.append(len(path)) # 添加值为列表原长度
                 # 这里因为path值在动态变化, 所以要用到切片保存当前状态
                 res.append(path[:]) # 添加值为列表本身的内容
 
