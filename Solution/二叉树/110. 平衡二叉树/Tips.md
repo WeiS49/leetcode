@@ -19,14 +19,14 @@
   		left = check(root.left)
   		right = check(root.right)
   		return max(left, right) + 1
-  		
   ```
   
   
 
 ## 心得
 
-* 从这道题中得到的经验
+* 递归的终止条件
+  * 比如这道题, 需要用递归去找到高度差>1的情况, 如果找到, 则不是平衡二叉树
 
 ​	
 
