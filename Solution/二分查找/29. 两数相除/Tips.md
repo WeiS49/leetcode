@@ -16,7 +16,7 @@
 
 ## 心得
 
-* 从这道题中得到的经验
+* 考察二进制搜索, 很好的题目
 
 ​	
 
@@ -24,4 +24,4 @@
 
 ## 参考资料
 
-[有价值的参考信息](https://leetcode-cn.com/)
+[29. Python3 利用二进制搜索的思想，无位运算，无乘除法，递归迭代两种方法 - 两数相除 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/divide-two-integers/solution/29-python3-li-yong-er-jin-zhi-sou-suo-de-si-xiang-/)
