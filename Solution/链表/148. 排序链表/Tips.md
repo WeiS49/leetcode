@@ -24,8 +24,28 @@
 
 ​	
 
+* 后端项目的部分
+* 原本没有, 根据自己的情况去做, 
+* 队列、服务器、数据分析模块, 
+* 在各种云里面都有相似的东西
+  * 消息队列最佳实践和使用场景
+* 怎样实现这些特性
+  1. 项目难点
+  2. 根据组件去问 - 比如消息队列
+  3. 设计一个抢红包系统
 
+* go语言
+  * goroutine、channel、**高并发**
+  * 把高并发项目都要看懂
+* Python
+
+* leetcode 模拟面试
+
+* 不要仅限于某个语言
+* 高频题里先选10道题, 保证这些题里面足够深
+  * 剩余的时间, 在针对每个领域去针对性的复习
+* 操作系统和系统设计的优先级相对较低
 
 ## 参考资料
 
-[有价值的参考信息](https://leetcode-cn.com/)
+[[排序链表\] 归并排序 (快慢指针+合并有序链表) Python - 排序链表 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/sort-list/solution/pai-xu-lian-biao-gui-bing-pai-xu-kuai-ma-2v1b/)
