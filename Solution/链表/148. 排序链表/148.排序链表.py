@@ -40,7 +40,6 @@ class Solution:
                 right = right.next
             pre = pre.next
         pre.next = left if left else right
-
         return guard.next
 
 
