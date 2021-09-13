@@ -11,18 +11,18 @@
 # @lc code=start
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        # current_profit = float("inf")
-        # min_price = 0
-        # profit = 0
-        # length = len(prices)
-        # for i in range(length):
-        #     for j in range(i + 1, length):
-                # current_profit = prices[j] - prices[i]
-                # if current_profit > profit:
-                #     profit = current_profit
-                # profit = max(profit, prices[j] - prices[i])
+        current_profit = float("inf")
+        min_price = 0
+        profit = 0
+        length = len(prices)
+        for i in range(length):
+            for j in range(i + 1, length):
+                current_profit = prices[j] - prices[i]
+                if current_profit > profit:
+                    profit = current_profit
+                profit = max(profit, prices[j] - prices[i])
 
-        # return profit
+        return profit
 
 
 
