@@ -39,7 +39,7 @@
 #
 #
 #
-
+# [102] 二叉树的层序遍历
 # @lc code=start
 # Definition for a binary tree node.
 # class TreeNode:
@@ -53,7 +53,6 @@
 # 3. 循环执行条件: 
 #   1. 获取当前层的节点, 并添加到res中
 #   2. 将当前层的节点的左右孩子添加进queue中
-
 
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
@@ -76,7 +75,6 @@ class Solution:
                     queue.append(node.right)
             
             res.append(level)
-
         return res
 
 
