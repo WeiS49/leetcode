@@ -16,6 +16,10 @@
 #         self.left = left
 #         self.right = right
 
+
+# [104] 二叉树的最大深度
+# Time: O(n) - n为节点个数
+# Space: O(height) - height为树的高度
 # 参数和返回值: 根节点root, 最大深度length(int)
 # 递归终止条件: 当前节点为空
 # 单层递归逻辑: 判断终止条件, 继续递归, 当前部分的层数+1
@@ -29,15 +33,33 @@ class Solution:
         if not root:
             return 0
 
-        # 如果这么写, 相当于对同时对两边+1
-        # 而题目要求的是分别处理
-        # self.length += 1
-        
         left = self.check(root.left)
         right = self.check(root.right)
         return max(left, right) + 1
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 如果这么写, 相当于对同时对两边+1
+        # 而题目要求的是分别处理
+        # self.length += 1
 
 
 

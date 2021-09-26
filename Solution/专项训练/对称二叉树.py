@@ -16,8 +16,7 @@
 # 递归终止条件: 节点没有; 发现不对称
 # 单层逻辑: 判断是否对称, 若对称, 添加左右节点
 
-# 只需要单次判断的题目, 可以设置self.bool进行判断
-# 但这种多次判断的题目不行, 必须遍历到底才能看到结果.
+# Time: O(n)  Space: O(n)
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
@@ -26,15 +25,7 @@ class Solution:
         # return self.bool
 
     def check(self, left, right):
-        
-        # if left and right:
-        #     if left.val != right.val:
-        #         self.bool = False
-        
-        # elif not left or not right:
-        #     self.bool = False
-        
-        # if left and right:
+
 
         if not left and not right: return True
         elif not left or not right: return False
